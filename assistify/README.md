@@ -1,4 +1,65 @@
-# Assistify - AI-Powered Desktop Assistant
+# Assistify
+
+Assistify is an AI-powered desktop assistant built with Python. It provides intelligent chat, voice commands, PDF summarization, and web search in a user-friendly interface.
+
+---
+
+## 🚀 Features
+- **Conversational AI Chatbot**
+- **Voice Recognition & Commands**
+- **PDF Summarization**
+- **Web & Wikipedia Search**
+- **To-Do List Management**
+- **Sentiment Analysis**
+- **Calculator**
+
+---
+
+## 📦 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/adarshjaiswal1253/Assisstify-main.git
+   cd Assisstify-main
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r assistify/requirements.txt
+   ```
+
+---
+
+## 🖥️ Usage
+Run the main application:
+```bash
+python assisstufy.py
+```
+
+---
+
+## 🗂️ Project Structure
+- `assisstufy.py` — Main entry point
+- `assistify/`
+  - `main.py` — App logic
+  - `core/` — Chatbot core
+  - `modules/` — PDF, search, voice modules
+  - `ui/` — UI components
+  - `utils/` — Utilities & validators
+  - `config/` — Settings
+
+---
+
+## ⚙️ Configuration
+Edit `assistify/config/settings.py` to customize settings.
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, open an issue first.
+
+---
+
+## 📄 License
+MIT License. See `LICENSE` for details.# Assistify - AI-Powered Desktop Assistant
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
